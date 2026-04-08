@@ -44,5 +44,42 @@ public class MemoryLayoutOfArray {
         */
         System.out.println(arr[0]);
         System.out.println(arr[1]);
+
+        int[] anotherArr = new int[] {1, 2, 3};
+
+        /*
+        变量 anotherArr 中存储的地址值为:
+            [I@1e643faf
+        不同于变量 arr 中存储的地址值:
+            [I@3b6eb2ec
+
+        因此语句:
+            new int[] {1, 2, 3}
+
+        在堆中开辟了一块新的内存空间用于存储新的数组对象 int[] {1, 2, 3}.
+        */
+        System.out.println(anotherArr);
+
+        int[] sameArr = anotherArr;
+
+        /*
+        语句:
+            int[] sameArr = anotherArr
+        将变量 anotherArr 中存储的地址赋值给了 sameArr, 因此这时的变量 sameArr 和 anotherArr 指向了堆中的同一个数组对象.
+        */
+        System.out.println(sameArr);
+
+        // 对变量 sameArr 和 anotherArr 应用 [] 运算符, 实际上是在对堆中的同一个数组对象进行操作
+        for (int i = 0; i < anotherArr.length; i++) {
+            System.out.println(anotherArr[i]);
+        }
+
+        for (int i = 0; i < sameArr.length; i++) {
+            sameArr[i]++;
+        }
+
+        for (int i = 0; i < anotherArr.length; i++) {
+            System.out.println(anotherArr[i]);
+        }
     }
 }
