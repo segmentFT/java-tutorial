@@ -1,4 +1,4 @@
-package ClassAndObject;
+package classandobject;
 
 /*
 在 Java 中, 一个 .java 源代码文件中可以同时定义多个类, 但是这些类的定义中, 只有一个类的类名能够在定义时被 public 修饰,
