@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/java_tutorial.iml" filepath="$PROJECT_DIR$/java_tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/method/method.iml" filepath="$PROJECT_DIR$/method/method.iml" />
       <module fileurl="file://$PROJECT_DIR$/operator/operator.iml" filepath="$PROJECT_DIR$/operator/operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/string/string.iml" filepath="$PROJECT_DIR$/string/string.iml" />
     </modules>
   </component>
 </project>
