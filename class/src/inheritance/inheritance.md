@@ -569,7 +569,7 @@ graph LR
     
     subgraph B["Parent.class"]
         subgraph "虚方法表 2" 
-            id3["displayInParent1() <br/> displayInParent2()"]
+            id3["displayInParent1() <br/> displayInParent2() <br/>"]
         end
     end
     
@@ -594,13 +594,13 @@ graph LR
     
     subgraph B["Parent.class"]
         subgraph "虚方法表 2" 
-            id3["displayInParent1() <br/> displayInParent2()"]
+            id3["displayInParent1() <br/> displayInParent2() <br/>"]
         end
     end
     
     subgraph C["Object.class"]
         subgraph "虚方法表 3" 
-            id4["toString() <br/> equals() <br/> hashCode() <br/> clone() <br/> finalize()"]
+            id4["toString() <br/> equals() <br/> hashCode() <br/> clone() <br/> finalize() <br/>"]
         end
     end
     
@@ -627,7 +627,7 @@ graph LR
     
     subgraph B["Parent.class"]
         subgraph "虚方法表 2" 
-            id3["displayInParent1() <br/> displayInParent2() <br/> toString() <br/> equals() <br/> hashCode() <br/> clone() <br/> finalize()"]
+            id3["displayInParent1() <br/> displayInParent2() <br/> toString() <br/> equals() <br/> hashCode() <br/> clone() <br/> finalize() <br/>"]
         end
     end
     
@@ -652,13 +652,13 @@ graph LR
 
     subgraph A["Child.class"]
         subgraph "虚方法表 1"
-            id2["displayInChild() <br/> displayInParent1() <br/> displayInParent2() <br/> toString() <br/> equals() <br/> hashCode() <br/> clone() <br/> finalize()"]
+            id2["displayInChild() <br/> displayInParent1() <br/> displayInParent2() <br/> toString() <br/> equals() <br/> hashCode() <br/> clone() <br/> finalize() <br/>"]
         end
     end
     
     subgraph B["Parent.class"]
         subgraph "虚方法表 2" 
-            id3["displayInParent1() <br/> displayInParent2() <br/> toString() <br/> equals() <br/> hashCode() <br/> clone() <br/> finalize()"]
+            id3["displayInParent1() <br/> displayInParent2() <br/> toString() <br/> equals() <br/> hashCode() <br/> clone() <br/> finalize() <br/>"]
         end
     end
     
